@@ -1,0 +1,11 @@
+[build]
+  functions = "functions"
+  command = "pip install -r requirements.txt"
+
+[dev]
+  command = "python main.py"
+
+[functions]
+  directory = "functions"
+
+# Pas de redirections vers index.html
